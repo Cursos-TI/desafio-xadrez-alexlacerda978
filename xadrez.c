@@ -1,32 +1,50 @@
 #include <stdio.h>
 
-// Desafio de Xadrez - MateCheck
-// Este código inicial serve como base para o desenvolvimento do sistema de movimentação das peças de xadrez.
-// O objetivo é utilizar estruturas de repetição e funções para determinar os limites de movimentação dentro do jogo.
+ // Tema 3 - Desafio Xadrez
+ // Aluno Alex dos santos lacerda
+ // Nível Aventureiro
 
 int main() {
-    // Nível Novato - Movimentação das Peças
-    // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
 
-    // Implementação de Movimentação do Bispo
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
+ // Declaração das variáveis Torre e Bispo
+ int i_T = 1, i_B = 1, i_R;
+ int i_C;
+ 
+ 
+    // Início do loop do Bispo
+    printf("Movimento do Bispo\n");
+    do {printf("Cima, Direita\n");
+        i_B++; }
+    
+    while (i_B <= 5);  
 
-    // Implementação de Movimentação da Torre
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
+printf("\n");
 
-    // Implementação de Movimentação da Rainha
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
+    // Início do loop da Torre
+    printf("Movimento da Torre\n");
+    while (i_T <= 5) {
+        printf("Direita\n");
+        i_T++; }
 
-    // Nível Aventureiro - Movimentação do Cavalo
-    // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
-    // Um loop pode representar a movimentação horizontal e outro vertical.
+printf("\n");
 
-    // Nível Mestre - Funções Recursivas e Loops Aninhados
-    // Sugestão: Substitua as movimentações das peças por funções recursivas.
-    // Exemplo: Crie uma função recursiva para o movimento do Bispo.
+   // Início do loop da Rainha
+   printf("Movimento da Rainha\n");
+   for (i_R = 1; i_R <= 8; i_R++) {
+    printf("Esquerda\n"); }
+    
+printf("\n");
 
-    // Sugestão: Implemente a movimentação do Cavalo utilizando loops com variáveis múltiplas e condições avançadas.
-    // Inclua o uso de continue e break dentro dos loops.
+   // Início do loop do Cavalo
+   printf("Movimento do Cavalo\n");
 
-    return 0;
+   // Loop externo
+  while (i_C < 2) {
+    // Loop interno
+    for (i_C = 0; i_C < 2; i_C++) {
+        printf("Baixo\n"); } } 
+        
+        printf("Esquerda\n");
+    
+return 0;
 }
