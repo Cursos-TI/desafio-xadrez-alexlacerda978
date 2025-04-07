@@ -1,7 +1,7 @@
 #include <stdio.h>
 
  // Tema 3 - Desafio Xadrez
- // Aluno Alex dos santos lacerda
+ // Aluno ALEX DOS SANTOS LACERDA
  // Nível Aventureiro
 
 int main() {
